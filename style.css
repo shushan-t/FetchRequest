@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .main {
+    top: 35px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  }
+  .table {
+    width: 95%;
+    margin: 0px auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    font-size: 10px;
+  }
+  
+  tr,td,th {
+    border: 1px solid #696968;
+    padding: 5px;
+  }
+  tr:hover td {
+    border: 1px solid #fff;
+    background: #b1b1af;
+    color: #fff;
+  }
+  tr:hover th {
+    border: 1px solid #fff;
+    background: #8f8e8d;
+    color: #fff;
+  }
+  
+  th {
+    padding: 5px;
+    text-transform: uppercase;
+    color: #141413;
+  }
+  
